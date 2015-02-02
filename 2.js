@@ -6,12 +6,11 @@
 // @grant       none
 // ==/UserScript==
 function autoclick() {
-  var a = document.getElementsByTagName('a');
-  for (var i = 0; i < a.length; i++) {
-    if (a[i].firstChild.nodeValue == '领取今日的登录奖励') {
-      var link = a[i];
-      link.click();
-      return true;
+  var input = document.getElementsByTagName("input");
+  for (var i = 0; i < input.length; i++) {
+    if (input[i].getAttribute("type") == "button") {
+      var button = input[i];
+      button.click();
     }
   }
 }
