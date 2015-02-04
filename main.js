@@ -8,13 +8,16 @@
 /*进入签到页面*/
 function autoclick1() {
   var a = document.getElementsByTagName('a');
+  var flag = 0;
   for (var i = 0; i < a.length; i++) {
     if (a[i].firstChild.nodeValue == '领取今日的登录奖励') {
       var link = a[i];
       link.click();
+      flag = 1;
       return 1;
     }
   }
+  if (flag == 0) setCookie();
   return 0;
 }
 /*点击按钮签到*/
@@ -25,7 +28,6 @@ function autoclick2() {
     if (input[i].getAttribute('value') == '领取 X 铜币') {
       var button = input[i];
       button.click();
-      setCookie();
       return 1;
     }
   }
@@ -48,7 +50,8 @@ function setCookie() {
 /*页面加载完毕后自动执行的匿名函数*/
 
 window.onload = function () {
-  if (checkCookie()) {
+  var checkCookie = checkCookie();
+  if (checkCookie == 1) {
     autoclick1();
     autoclick2();
   } 
