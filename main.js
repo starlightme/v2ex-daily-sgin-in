@@ -34,8 +34,13 @@ function autoclick2() {
 /*判断是否有cookie*/
 
 function checkCookie() {
-  if (document.cookie.length > 0) return 1;
-   else return 0;
+  if (document.cookie.length > 0) {
+    /*检测对应的cookie是否存在*/
+    var flag = document.cookie.indexOf('status');
+    if (flag != - 1) return 1;
+     else return 0;
+  } 
+  else return 0;
 }
 /*设置cookie，1天后到期*/
 
@@ -43,12 +48,12 @@ function setCookie() {
   var date = new Date();
   var time = 1;
   date.setTime(date.getTime() + time * 24 * 3600 * 1000);
-  document.cookie = 'status=setted;expire=' + date.toGMTString();
+  document.cookie = 'status=setted;expire=' + date.toGMTString() + ';path=/；domain=.v2ex.com';
 }
 /*页面加载完毕后自动执行的匿名函数*/
 
 window.onload = function () {
-  if (checkCookie()) {
+  if (!checkCookie()) {
     autoclick1();
     autoclick2();
   } 
