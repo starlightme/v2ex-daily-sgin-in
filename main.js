@@ -48,7 +48,7 @@ function setCookie() {
   var date = new Date();
   var time = 1;
   date.setTime(date.getTime() + time * 24 * 3600 * 1000);
-  document.cookie = 'status=setted;expire=' + date.toGMTString() + ';path=/；domain=.v2ex.com';
+  document.cookie = 'status=setted;expire=' + date.toGMTString() + ';path=/';
 }
 /*页面加载完毕后自动执行的匿名函数*/
 
