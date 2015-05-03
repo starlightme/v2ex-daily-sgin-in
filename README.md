@@ -10,12 +10,22 @@
 
 	
 	sudo pip install requests
+	
+	或者
+	
 	pip install requests
 
 ##版本
 
 Python2
 
+##使用
+
+	python v2ex.py
+	
+	或者,主要是对于Arch和新版Debian用户
+	
+	python2 v2ex.py
 
 ##说明
 还有些待完善的地方，欢迎帮忙提bug，前段时间因为你懂的原因，V站在国内只能用https访问，yxjxx用https估计也是基于此考虑
