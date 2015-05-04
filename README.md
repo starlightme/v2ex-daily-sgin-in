@@ -28,9 +28,18 @@ Python2
 	python2 v2ex.py
 
 ##说明
+
 还有些待完善的地方，欢迎帮忙提bug，前段时间因为你懂的原因，V站在国内只能用https访问，yxjxx用https估计也是基于此考虑
 
 但是用我在Python2时发现，貌似requests用不了https（Python3中无压力）所以就改成了http，在本地可以正常地进行请求，所以估计国内VPS也能用（毕竟已经备案了）国外VPS本身就不存在问题
+
+5月4日更新：
+貌似因为中文注释，使用时报错了，另外在python2.6的vps环境下貌似无法使用
+
+在python2.7的本地环境下成功完成签到
+
+![v2ex](http://jimmy66.qiniudn.com/v2ex.PNG) 
+
 
 ##感谢
 
