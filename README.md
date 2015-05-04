@@ -26,6 +26,8 @@ Python2
 	或者,主要是对于Arch和新版Debian用户
 	
 	python2 v2ex.py
+	
+	建议使用时去除中文注释，在Python2.7环境下使用
 
 ##说明
 
