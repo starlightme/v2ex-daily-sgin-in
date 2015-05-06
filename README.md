@@ -27,7 +27,20 @@ Python2
 	
 	python2 v2ex.py
 	
-	建议使用时去除中文注释，在Python2.7环境下使用
+	建议使用时去除中文注释
+	
+##提醒
+
+* 使用前删除中文注释
+* chmod u+x v2ex.py 
+* crontab -e 增加自己的配置
+* crontab使用绝对路径
+
+##Crontab
+
+	0 5 * * * /root/python/v2ex.py >/dev/null 2>&1
+
+设置不唯一，请参照自己的vps时间，可以借助date命令进行参考
 
 ##说明
 
@@ -36,11 +49,18 @@ Python2
 但是用我在Python2时发现，貌似requests用不了https（Python3中无压力）所以就改成了http，在本地可以正常地进行请求，所以估计国内VPS也能用（毕竟已经备案了）国外VPS本身就不存在问题
 
 5月4日更新：
+
 貌似因为中文注释，使用时报错了，另外在python2.6的vps环境下貌似无法使用
 
 在python2.7的本地环境下成功完成签到
 
 ![v2ex](http://jimmy66.qiniudn.com/v2ex.PNG) 
+
+5月6日更新：
+
+去除中文注释后，在服务器端Python2.6环境下也已经运行良好，今天设置了Crontab，结果忘了加可执行熟悉，[捂脸]
+
+明天再看下，如果正常应该就可以较为长期地自动化运行了
 
 
 ##感谢
