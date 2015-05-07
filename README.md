@@ -38,7 +38,7 @@ Python2
 
 ##Crontab
 
-	0 5 * * * /root/python/v2ex.py >/dev/null 2>&1
+	0 5 * * * python /root/python/v2ex.py >/dev/null 2>&1
 
 设置不唯一，请参照自己的vps时间，可以借助date命令进行参考
 
@@ -62,6 +62,9 @@ Python2
 
 明天再看下，如果正常应该就可以较为长期地自动化运行了
 
+5月7日更新：
+
+貌似在crontab里面写成直接给出绝对路径的sh脚本式方式无法执行，加上了python命令，明天看看效果
 
 ##感谢
 
