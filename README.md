@@ -25,7 +25,7 @@ You can view more details or find chinese instruction in the [`README_cn.md`](ht
 
 	python v2ex.py
 	
-	or in the other way, suit to users of Arch or Debian
+Or in the other way, suits to users of ArchLinux or  Debian 8 system
 	
 	python2 v2ex.py
 	
