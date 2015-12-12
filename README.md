@@ -32,12 +32,12 @@ Or in the other way, suits to users of ArchLinux or  Debian 8 system
 
 ##Reminder##
 
-* fill your v2ex username and password in the code
+* Fill your v2ex username and password in the code
 * Remove all chinese comments before you use it
 * `chmod u+x v2ex.py`
 * `corntab -e` add your setting
-* use absolute direction in `crontab` setting
-* make sure the role of script owner and crontab mission creater are the same
+* Use absolute path in `crontab` setting
+* Make sure the role of script owner and crontab mission creater are the same
 
 ##Crontab##
 
