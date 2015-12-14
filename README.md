@@ -35,9 +35,11 @@ Or in the other way, suits to users of ArchLinux or  Debian 8 system
 * Fill your v2ex username and password in the code
 * Remove all chinese comments before you use it
 * `chmod u+x v2ex.py`
+* Make sure `cron` processing is running. You can get a reference from this [tutorial](http://www.cyberciti.biz/faq/howto-linux-unix-start-restart-cron/)
 * `corntab -e` add your setting
 * Use absolute path in `crontab` setting
 * Make sure the role of script owner and crontab mission creater are the same
+
 
 ##Crontab##
 
