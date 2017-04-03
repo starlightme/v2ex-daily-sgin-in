@@ -1,4 +1,4 @@
-##Introduction
+## Introduction
 
 `v2ex.py` is a simple python scrpit that you can use it to automatically sign up v2ex daily.
 
@@ -7,7 +7,7 @@ Inspired by [v2ex\_daily\_mission](https://github.com/yxjxx/v2ex_daily_mission) 
 You can view more details or find chinese instruction in the [`README_cn.md`](https://github.com/starlightme/v2ex-daily-sgin-in/blob/master/README_CN.md)  and [`v2ex_original.py`](https://github.com/starlightme/v2ex-daily-sgin-in/blob/master/v2ex_original.py).
 
 
-##Package Requirements 
+## Package Requirements 
 
 
 * `re`
@@ -17,11 +17,11 @@ You can view more details or find chinese instruction in the [`README_cn.md`](ht
 
 	sudo pip install requests
 	
-##Version
+## Version
 
 **Python2**
 
-##Usage##
+## Usage##
 
 	python v2ex.py
 	
@@ -30,7 +30,7 @@ Or in the other way, suits to users of ArchLinux or  Debian 8 system
 	python2 v2ex.py
 	
 
-##Reminder##
+## Reminder ##
 
 * Fill your v2ex username and password in the code
 * Remove all chinese comments before you use it
@@ -41,16 +41,16 @@ Or in the other way, suits to users of ArchLinux or  Debian 8 system
 * Make sure the role of script owner and crontab mission creater are the same
 
 
-##Crontab##
+## Crontab ##
 
 	0 5 * * * python /root/python/v2ex.py >/dev/null 2>&1
 	
 Crontab setting is not unique. You need to set it according to the datetime of your `vps` which can be got by using `date` command.
 
-##Screenshoot##
+## Screenshoot ##
 ![v2ex_sign_in](http://7o52g5.com1.z0.glb.clouddn.com/屏幕快照%202015-12-11%20下午5.13.28.jpg)
 
-##Gratitude List##
+## Gratitude List ##
 
 * yxjxx
 * Puteulanus
@@ -58,6 +58,6 @@ Crontab setting is not unique. You need to set it according to the datetime of y
 * wenketel
 * DIYgod
 
-##License
+## License
 
 Apache License 2.0
