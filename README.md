@@ -1,4 +1,4 @@
-## Introduction
+## Introduction ##
 
 `v2ex.py` is a simple python scrpit that you can use it to automatically sign up v2ex daily.
 
@@ -7,7 +7,7 @@ Inspired by [v2ex\_daily\_mission](https://github.com/yxjxx/v2ex_daily_mission) 
 You can view more details or find chinese instruction in the [`README_cn.md`](https://github.com/starlightme/v2ex-daily-sgin-in/blob/master/README_CN.md)  and [`v2ex_original.py`](https://github.com/starlightme/v2ex-daily-sgin-in/blob/master/v2ex_original.py).
 
 
-## Package Requirements 
+## Package Requirements ##
 
 
 * `re`
@@ -21,7 +21,7 @@ You can view more details or find chinese instruction in the [`README_cn.md`](ht
 
 **Python2**
 
-## Usage##
+## Usage ##
 
 	python v2ex.py
 	
@@ -58,6 +58,6 @@ Crontab setting is not unique. You need to set it according to the datetime of y
 * wenketel
 * DIYgod
 
-## License
+## License ##
 
 Apache License 2.0
