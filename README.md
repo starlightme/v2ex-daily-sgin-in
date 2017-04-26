@@ -4,7 +4,6 @@
 
 Inspired by [v2ex\_daily\_mission](https://github.com/yxjxx/v2ex_daily_mission) project and create this project for `Python2` users and easier employment in `vps`.
 
-You can view more details or find chinese instruction in the [`README_cn.md`](https://github.com/starlightme/v2ex-daily-sgin-in/blob/master/README_CN.md)  and [`v2ex_original.py`](https://github.com/starlightme/v2ex-daily-sgin-in/blob/master/v2ex_original.py).
 
 
 ## Package Requirements ##
